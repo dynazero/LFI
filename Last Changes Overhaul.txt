@@ -1,0 +1,55 @@
+ADMIN:
+HomePage:
+Project Admin [VIEW of overall projects Activated/Onprogress Only]
+
+PROJECTS
+Project Add [ADD New Project w/ Category /Doc File]
+My Projects [VIEW All projects Completed/Declined] (change to'Project Archives' same UI) [Recent File on TOP]
+Materials Add [ADD Material w/ quantity to an specific project]
+New User Project Proposal[VIEW of New User Proposal Request]
+New Project Proposal  [VIEW of New Proposal Request of old Account]
+*Generate Reports
+
+INVENTORY
+My Materials [VIEW of Materials Inventory]
+*Generate Reports
+
+CUSTOMIZE
+Materials Customize [ADD Custom Material to inventory]
+Project Category [ADD custom Category Name]
+Customize--HomePage(previous Homepage)
+
+USERS ACCT
+*Create New User
+User Management [VIEW and Deactivation/Reactivation of Acct.] (Add-on Search Bar)
+
+Logout
+
+
+Project Manager:
+HomePage:
+Project Admin [VIEW of overall projects Activated/Onprogress Only]
+
+My Projects [VIEW All projects Completed/Declined] (change to'Project Archives')
+
+Logout
+
+
+Client:
+HomePage:
+Project Admin [VIEW of overall projects Activated/Onprogress Only]
+
+My Projects [VIEW All projects Completed/Declined] (change to'Project Archives' same UI) [Recent File on TOP]
+
+New Project Proposal [option to SEND new Proposal to admin]
+
+Logout
+
+
+
+
+
+
+
+
+

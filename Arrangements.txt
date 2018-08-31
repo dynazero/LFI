@@ -1,0 +1,41 @@
+galleryarchive note "Arrangement"
+
+1-A>Commercial Models
+2-B>Residential Models
+3-C>ModelShow Room
+4-D>High Rise
+5-E>Site Development
+6-F>Vessel Models
+7-G>Hotels, Condominium Office Building
+
+
+Project Activated Code:
+	0-not Activated
+	1-Activated
+	2-On Process/Progress
+	3-Declined
+	4-Completed
+
+$projectStatus = "Activated";
+				
+				}else if($projectStatus = 2){
+				
+				$projectStatus = "OnProgress";
+				
+				}else if($projectStatus = 3){
+				
+				$projectStatus = "Declined";
+				
+				}else if($projectStatus = 4){
+				
+				$projectStatus = "Completed";
+
+VIEW:
+0 = New User/New Project Proposal/Not Activated Badge on Admin for New User Project Proposal
+1= Old User/New Project Proposal/Not Activated	  Badge on Admin for New Project Proposal
+2= New or Old User/Approved Project Proposal-Activated  Badge on User for New Project Approved
+3= New or Old User/Approved Project Proposal-Viewed  Badge disable on User for New Project Approved
+
+
+
+

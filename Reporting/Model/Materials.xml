@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appml>
+
+<datasource>
+<database>
+  <connection>AppmlDemo</connection>
+  <sql>SELECT * FROM `materials` JOIN `materiallist` ON `materials`.materiallistID=`materiallist`.materiallistID JOIN `project` ON `materials`.projectID=`project`.projectID</sql>
+</database>
+</datasource>
+
+</appml>
+
+<filters>
+  <query>
+  <field>ProjectName</field>
+  </query>
+</filters>

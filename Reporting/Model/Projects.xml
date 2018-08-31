@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appml>
+
+<datasource>
+<database>
+  <connection>AppmlDemo</connection>
+  <sql>SELECT * FROM `project` JOIN `users` ON `users`.usersID = `project`.userID JOIN `projectcategory` ON `project`.projectcategoryID = `projectcategory`.projectcategoryID JOIN `projectbalance` ON `project`.projectID=`projectbalance`.projectID ORDER BY `users`.UserName DESC</sql>
+</database>
+</datasource>
+
+<filters>
+  <query>
+  <field>ProjectName</field>
+  </query>
+</filters>
+
+
+</appml>
+

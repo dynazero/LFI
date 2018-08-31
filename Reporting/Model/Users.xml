@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appml>
+
+<datasource>
+<database>
+  <connection>AppmlDemo</connection>
+  <sql>SELECT UserName,FirstName,LastName,Email,Activated,Role FROM users</sql>
+  <orderby>UserName</orderby>
+</database>
+</datasource>
+
+</appml>
+
+<filters>
+  <query>
+  <field>UserName</field>
+  <field>FirstName</field>
+  <field>LastName</field>
+  <field>Email</field>
+  <field>Activated</field>
+  <field>Role</field>
+  </query>
+</filters>

@@ -1,0 +1,40 @@
+*not same password on new user [notification]
+	AdminFunction/PasswordResetConfirmation.php
+
+*Project [project add]
+	create a Selection for existing users.
+
+*materialslist DB Overhaul:
+	Materials Name
+	Type:Unit Count,Weight,Volume
+	Quantity
+
+*NEW Materials DB Scheme 
+	materialsstorage - list of stored materials consists of: materialsSID, MaterialName, MaterialsTypeID, Quantity,Minimum, AlertNot
+	materialsproject - list of overall materials added  to a specific project consists of: materialsPID, mainprojectID, MaterialsStorageID, MPQuantity
+	materialsprojectbreak - list of log for materials  added  to a specific project consists of: materialsBID, MaterialProjectID, MBQuantity, TimeStamp,encoder
+	materialstype - type of materials consists of: materialsTID, Types[Unit, Weight, Volume]
+
+*Get Back to Materials List,   
+
+	>Create Modal for 'Materials View' per Project in General Detail Modal
+
+	*Modify Adding = Buffer for DUPLICATE NAME existing in the list then add it up.
+
+	*Create an Image Material list view for any existing Materials for the "adminMaterialsAdd.php"
+	
+	*Create "My Storage" under `Inventory`. [Summary of overall stored materials]
+
+	*Materials Add [Debug-Add materials with same field name(MaterialName)]
+
+`projectfiles` + timestamp
+
+projectPicture Modal - COMMENT APPROVAL
+
+*work on Project Manager, Client ACcounts UI
+
+Users Account Personal Information Contact NO:, Business Mailing Address: 
+
+*!notification[badge] = view (client) - AFTER YOU'RE DONE WITH ALL THE ACCOUNTS ACCESS
+
+check the cad file authentication.
