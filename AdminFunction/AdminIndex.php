@@ -1390,22 +1390,83 @@ $(".trialoA").hover(function(){
 	 
 	  
 	  $(".projects").hover(function(){
-		  $("#projectList").toggle('fast');		  
+		  $("#projectList").show('fast');
+
+		   $("#inventoryList").hide('fast' , function(){
+		   	$("#inventoryList").stop();
+		   });	
+		   
+		    $("#customizeList").hide('fast' , function(){
+		   	$("#customizeList").stop();
+		   });		
+		   	
+		    $("#useracctList").hide('fast' , function(){
+		   	$("#useracctList").stop();
+		   });		
+
 		  });
 		  
 	  $(".inventory").hover(function(){
-		  $("#inventoryList").toggle('fast');		  
+		  $("#inventoryList").show('fast');
+
+		   $("#projectList").hide('fast' , function(){
+		   	$("#projectList").stop();
+		   	});	
+
+		   $("#customizeList").hide('fast' , function(){
+		   	$("#customizeList").stop();
+		   });	   	
+		   
+		    
+		    $("#useracctList").hide('fast' , function(){
+		   	$("#useracctList").stop();
+		   });			  
+
 		  });  
 	   
 	  $(".customize").hover(function(){
-		  $("#customizeList").toggle('fast');		  
+		  $("#customizeList").show('fast');	
+
+		   
+		   $("#projectList").hide('fast' , function(){
+		   	$("#projectList").stop();
+		   });			
+
+		   $("#inventoryList").hide('fast' , function(){
+		   	$("#inventoryList").stop();
+		   });				   
+
+		    $("#useracctList").hide('fast' , function(){
+		   	$("#useracctList").stop();
+		   });			
+
 		  });  
 
 	  $(".usersAcct").hover(function(){
-		  $("#useracctList").toggle('fast');		  
+		  $("#useracctList").show('fast');	
+
+
+		   $("#projectList").hide('fast' , function(){
+		   	$("#projectList").stop();
+		   });	
+	
+		   $("#inventoryList").hide('fast' , function(){
+		   	$("#inventoryList").stop();
+		   });	
+
+		    $("#customizeList").hide('fast' , function(){
+		   	$("#customizeList").stop();
+		   });	
+
 		  });	   	  
 		  
-		  
+
+	 // $(".rightMid").hover(function(){
+		// $(".innerList").stop();
+
+	 // });
+
+
 	  
 	  $(".customizeMaterials").click(function(){
     $('#myTab a[href="#materialsTab"]').tab('show')
